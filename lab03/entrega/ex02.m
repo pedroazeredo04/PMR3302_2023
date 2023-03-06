@@ -28,3 +28,9 @@ for n1 = 1:4
   subplot(2, 2, n1)
   zplane(num, sym2poly(den))
 endfor
+
+
+% Não há zeros na função de transferência.
+% Quanto aos polos, nos casos A, B, C eles se encontram no semiplano esquerdo do z-plane
+% Isso indica que o sistema que eles caracterizam é estável, como pode ser observado nos gráficos, pois os 3 casos tendem a 1
+% Já no quarto caso, um dos polos se encontra no semiplano direito, o que implica um sistema instável; como também pode ser observado no gráfico, que não é limitado.
