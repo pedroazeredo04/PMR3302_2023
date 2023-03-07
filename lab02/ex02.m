@@ -34,6 +34,6 @@ for n = 1:2
       printf('A solução acima descreve um sistema instável \n')
     endif
   else
-    X = A * e^(s * t)
+    X = A * e^(s_r * t)
   endif
 endfor
